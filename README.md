@@ -1,5 +1,7 @@
 This is the first task of my second year enternship, in wich i learned the basics of ROS and to program the protocol publisher-subscriber as showing the diagram
 
+![ros publisher subscriber](https://github.com/med0amine/ros-publisher-and-subscriber/blob/main/images/ros%20publisher%20subscriber.png)
+
 the steps of installing ROS melodic in Ubuntu as well as setting up the publisher and subscriber nodes are showing down bellow 
 ## installation of ROS
 1. Setup of sources.list
