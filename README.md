@@ -88,4 +88,4 @@ $ source devel/setup.bash
 $ rosrun pub_and_sub reciever.py
 ~~~
 
-For more information you can visit: http://wiki.ros.org/
+For more information you can visit: http://wiki.ros.org/ 
