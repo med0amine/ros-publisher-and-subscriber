@@ -1,9 +1,9 @@
-This is the first task of my second year enternship, in wich i learned the basics of ROS and to program the protocol publisher-subscriber as showing the diagram
+This is the first task of my second-year internship in which I learned the basics of ROS. A ROS publisher is a ROS node that publishes a specific type of ROS message about a given ROS topic. "Interested" nodes (subscribers) can access messages published in this way, as shown in the diagram.
 
 ![ros publisher subscriber](https://github.com/med0amine/ros-publisher-and-subscriber/blob/main/images/ros%20publisher%20subscriber.png)
 
+The steps for installing ROS Melodic on Ubuntu and setting up the Publisher and Subscriber nodes are shown below. 
 
-the steps of installing ROS melodic in Ubuntu as well as setting up the publisher and subscriber nodes are showing down bellow 
 ## installation of ROS
 1. Setup of sources.list
 ~~~
