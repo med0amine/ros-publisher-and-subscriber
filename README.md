@@ -46,15 +46,46 @@ $ cd ~/catkin_ws
 $ catkin_make
 $ source devel/setup.bash
 ~~~
+## Create a ROS publisher and subscriber
+- Create the publisher node
 ~~~
+$ cd ~/catkin_ws
+$ source devel/setup.bash
+$ cd src
+$ roscd pub_and_sub
+$ mkdir scripts
+$ cd scripts/
+$ touch talker.py
+$ vim talker.py
+$ chmod +x talker.py 
 ~~~
+- Create the subscriber node
 ~~~
+$ cd ~/catkin_ws
+$ source devel/setup.bash
+$ cd src
+$ roscd pub_and_sub/scripts
+$ touch reciever.py
+$ vim reciever.py
+$ chmod +x reciever.py 
 ~~~
+- Launch roscore
 ~~~
+$ cd ~/catkin_ws
+$ source devel/setup.bash
+$ roscore
 ~~~
+- Launch the publisher node
 ~~~
+$ cd ~/catkin_ws
+$ source devel/setup.bash
+$ rosrun pub_and_sub talker.py
 ~~~
+- Launch the subscriber node
 ~~~
+$ cd ~/catkin_ws
+$ source devel/setup.bash
+$ rosrun pub_and_sub reciever.py
 ~~~
-~~~
+
 For more information you can visit: http://wiki.ros.org/
